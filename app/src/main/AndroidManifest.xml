@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tyari.campus">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.SettingsActivity" />
+        <activity android:name=".activity.SubjectActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.PackageInfoActivity" />
+        <activity android:name=".activity.PaymentActivity" />
+        <activity android:name=".activity.TestActivity" />
+        <activity android:name=".activity.WebViewActivity" />
+        <activity android:name=".activity.UpdateProfileActivity" />
+        <activity android:name=".activity.ChangePasswordActivity" />
+        <activity android:name=".activity.ResetPasswordActivity" />
+        <activity android:name=".activity.ForgotPasswordActivity" />
+        <activity android:name=".activity.ResultActivity" />
+        <activity android:name=".activity.JobsActivity" />
+        <activity android:name=".activity.BooksActivity" />
+        <activity android:name=".activity.VideosActivity" />
+        <activity android:name=".activity.MyTestActivity" />
+        <activity android:name=".activity.MyResultActivity" />
+        <activity android:name=".activity.ExamInformationActivity" />
+        <activity android:name=".activity.MainActivity"/>
+    </application>
+
+</manifest>

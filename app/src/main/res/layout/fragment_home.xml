@@ -1,0 +1,151 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:ignore="contentDescription,SmallSp,SpUsage">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerVwOffers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/cntLytHomeHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recyclerVwOffers">
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline_33"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".33" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline_64"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".64" />
+
+            <TextView
+                android:id="@+id/txtVwJobs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:background="@null"
+                android:drawablePadding="20dp"
+                android:drawableTop="@drawable/jobs"
+                android:gravity="center"
+                android:text="@string/jobs"
+                android:textColor="#5a5660"
+                android:textSize="12sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="@+id/guideline_33"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtVwBooks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawablePadding="20dp"
+                android:drawableTop="@drawable/books"
+                android:gravity="center"
+                android:text="@string/books"
+                android:textColor="#5a5660"
+                android:textSize="12sp"
+                app:layout_constraintLeft_toRightOf="@+id/guideline_33"
+                app:layout_constraintRight_toRightOf="@+id/guideline_64"
+                app:layout_constraintTop_toTopOf="@+id/txtVwJobs" />
+
+            <TextView
+                android:id="@+id/txtVwVideos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawablePadding="20dp"
+                android:drawableTop="@drawable/videos"
+                android:gravity="center"
+                android:text="@string/videos"
+                android:textColor="#5a5660"
+                android:textSize="12sp"
+                app:layout_constraintLeft_toRightOf="@+id/guideline_64"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txtVwJobs" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtVwJobs" />
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/txtVwExamInfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_blue_back"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="@string/exam_information"
+            android:textAllCaps="true"
+            android:textColor="#333137"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cntLytHomeHeader" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerVwSubjects"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtVwExamInfo" />
+
+        <TextView
+            android:id="@+id/txtVwSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_blue_back"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="@string/save_subject"
+            android:textAllCaps="true"
+            android:textColor="#333137"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recyclerVwSubjects" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtVwSave" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

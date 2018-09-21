@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">तैयारी कैंपस</string>
+
+    <string name="tab_home">होम</string>
+    <string name="tab_practice">हल प्रश्न उत्तर</string>
+    <string name="tab_test">टेस्ट श्रृंखला</string>
+
+    <string name="reset">Reset</string>
+    <string name="login">लॉग इन</string>
+    <string name="register">रजिस्टर</string>
+    <string name="skip">छोड़ें</string>
+
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="payment">भुगतान</string>
+    <string name="package_info">पैकेज जानकारी</string>
+    <string name="choose_language">भाषा चुनें</string>
+    <string name="subject">परीक्षा का चयन करें</string>
+
+</resources>
