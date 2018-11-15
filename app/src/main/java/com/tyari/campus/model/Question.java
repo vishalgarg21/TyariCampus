@@ -43,10 +43,6 @@ public class Question {
     private String subject;
     @SerializedName("solution")
     @Expose
-    private String solution;
-    //TODO: Need to remove
-    @SerializedName("steps")
-    @Expose
     private List<String> steps = new ArrayList<>();
 
     private boolean isCorrect;
@@ -138,14 +134,6 @@ public class Question {
 
     public void setSubject(String subject) {
         this.subject = subject;
-    }
-
-    public String getSolution() {
-        return solution;
-    }
-
-    public void setSolution(String solution) {
-        this.solution = solution;
     }
 
     public List<String> getSteps() {

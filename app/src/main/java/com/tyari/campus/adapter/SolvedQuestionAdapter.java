@@ -41,14 +41,6 @@ public class SolvedQuestionAdapter extends RecyclerView.Adapter<SolvedQuestionAd
         holder.mAnswerTxtVw.setText(question.getAnswer());
         holder.mSolutionRecyclerVw.setLayoutManager(new LinearLayoutManager(mActivity));
         holder.mSolutionRecyclerVw.setHasFixedSize(true);
-
-        //TODO
-        question.setSteps(new ArrayList<String>());
-        question.getSteps().add(question.getSolution());
-        question.getSteps().add(question.getSolution());
-        question.getSteps().add(question.getSolution());
-        question.getSteps().add(question.getSolution());
-        question.getSteps().add(question.getSolution());
         holder.mSolutionRecyclerVw.setAdapter(new SolutionAdapter(mActivity, question.getSteps()));
 
         if (question.isCorrect()) {

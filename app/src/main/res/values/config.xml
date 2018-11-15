@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="exam_information_url_ctet">http://tyaricampus.com/CTET%201%20AND%20CTET%202.html</string>
-    <string name="exam_information_url_tgt_pgt">http://tyaricampus.com/TGT%20Exam%20Details.html</string>
-    <string name="exam_information_url_ssc">http://tyaricampus.com/SSC%20CGL%20Exam%202018.html</string>
-    <string name="exam_information_url_vdo">http://tyaricampus.com/Gram%20Vikas%20Adhikari%20(VDO).html</string>
-    <string name="exam_information_url_ibps">http://tyaricampus.com/IBPS%20Clerk%20Exam%20Pattern.html</string>
-    <string name="exam_information_url_air_force">http://tyaricampus.com/Air%20Force%20EXAM%202018.html</string>
-    <string name="exam_information_url_nda">http://tyaricampus.com/NDA%20Exam%202018.html</string>
+    <string name="exam_information_url_ctet" translatable="false">http://tyaricampus.com/CTET%201%20AND%20CTET%202.html</string>
+    <string name="exam_information_url_tgt_pgt" translatable="false">http://tyaricampus.com/TGT%20Exam%20Details.html</string>
+    <string name="exam_information_url_ssc" translatable="false">http://tyaricampus.com/SSC%20CGL%20Exam%202018.html</string>
+    <string name="exam_information_url_vdo" translatable="false">http://tyaricampus.com/Gram%20Vikas%20Adhikari%20(VDO).html</string>
+    <string name="exam_information_url_ibps" translatable="false">http://tyaricampus.com/IBPS%20Clerk%20Exam%20Pattern.html</string>
+    <string name="exam_information_url_air_force" translatable="false">http://tyaricampus.com/Air%20Force%20EXAM%202018.html</string>
+    <string name="exam_information_url_nda" translatable="false">http://tyaricampus.com/NDA%20Exam%202018.html</string>
 
-    <string name="about_url">http://tyaricampus.com/About%20Tyari%20Campus.html</string>
-    <string name="help_url">http://tyaricampus.com/Contact%20with%20Tyari%20Campus.html</string>
-    <string name="contact_us_url">http://tyaricampus.com/Contact%20with%20Tyari%20Campus.html</string>
+    <string name="about_url" translatable="false">http://tyaricampus.com/About%20Tyari%20Campus.html</string>
+    <string name="help_url" translatable="false">http://tyaricampus.com/Contact%20with%20Tyari%20Campus.html</string>
+    <string name="contact_us_url" translatable="false">http://tyaricampus.com/Contact%20with%20Tyari%20Campus.html</string>
 
 </resources>

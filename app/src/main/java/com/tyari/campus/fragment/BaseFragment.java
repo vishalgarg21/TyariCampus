@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
+import com.tyari.campus.activity.WebViewActivity;
+import com.tyari.campus.common.Constants;
 import com.tyari.campus.utils.AppUtils;
 import com.tyari.campus.utils.LogUtils;
 
@@ -39,5 +41,11 @@ public class BaseFragment extends Fragment {
     protected void launchActivity(Class activity) {
         Intent intent = new Intent(mActivity, activity);
         mActivity.startActivity(intent);
+    }
+
+    protected void launchWeViewActivity(String url){
+        Intent intent = new Intent(mActivity, WebViewActivity.class);
+        intent.putExtra(Constants.KEY_WEB_URL, url);
+        startActivity(intent);
     }
 }

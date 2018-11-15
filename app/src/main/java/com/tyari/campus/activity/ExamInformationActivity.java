@@ -13,7 +13,6 @@ public class ExamInformationActivity extends BaseActivity implements View.OnClic
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_information);
 
-
         TextView mInfo1TxtVw = findViewById(R.id.txtVwInfo1);
         TextView mInfo2TxtVw = findViewById(R.id.txtVwInfo2);
         TextView mInfo3TxtVw = findViewById(R.id.txtVwInfo3);

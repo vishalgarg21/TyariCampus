@@ -19,7 +19,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitUtils {
     private static final String KEY_LANGUAGE = "language";
-    private static final String BASE_URL = "http://tyaricampus.com/";
+    private static final String BASE_URL = "http://my-whish.club/tyari/";
 
     private static RetrofitUtils sInstance;
 
